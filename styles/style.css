@@ -85,7 +85,7 @@ h3{
   align-content: space-around;
   flex-wrap: nowrap;
   flex-direction: row;
-  align-items: baseline;
+  
   justify-content: center;
 }
 
@@ -132,12 +132,19 @@ p{
 
 .spotify-logo-alone{
   display: flex;
-  flex-wrap: row;
  width: 100px;
  height: 100px;
- max-width: 50px; /* Ajusta el tamaño del logo */
- height: auto;
- display: inline-block; 
+height: auto;
  margin-left: 700px;
+ 
+}
+
+.spotify-app
+{
+  display: flex;
+  justify-content: right; /* Puede ser 'center', 'flex-start', 'flex-end' etc. para horizontal */
+  align-items: right; /* Puede ser 'center', 'flex-start', 'flex-end' etc. para vertical */
+  height: 100vh; /* Asegura que el contenedor tiene suficiente altura si quieres centrar verticalmente */
+
  
 }
