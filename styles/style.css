@@ -44,10 +44,14 @@ ul {
   height: 600px;
 }
 
+header {
+  justify-content: center;
+}
+
 h1 {
-display: flex;
-padding:200px;
-margin-bottom: 0px;
+  display: flex;
+  padding: 200px;
+  margin-bottom: 0px;
   color: white;
   align-items: center;
   align-content: center;
@@ -56,12 +60,65 @@ margin-bottom: 0px;
 }
 
 h2 {
-    display: flex;
-    margin-top: 0px;
-        color: white;
-        align-items: center;
-        text-align: center;
-        justify-content: flex-end;
-        flex-direction: column;
+  display: flex;
+  margin-top: 0px;
+  color: white;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  flex-direction: column;
+}
 
-    }
+h3{
+
+    align-items: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:30px;
+
+}
+
+.box-container {
+  display: flex; /* Usar flex para alinear las cajas en fila */
+  gap: 20px; /* Espacio entre las cajas */
+  align-content: space-around;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.box {
+  background-color: #ffffff; /* Color de fondo de cada caja */
+  border: 1px solid yellow; /* Borde suave alrededor de cada caja */
+  padding: 20px; /* Espacio interno alrededor del contenido de cada caja */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+  width: 200px; /* Ancho fijo de cada caja */
+  text-align: center; /* Centrar el texto dentro de cada caja */
+  border-radius: 8px; /* Bordes redondeados */
+}
+
+h4 {
+  color: green;
+}
+
+.logo {
+  width: 80px; /* Ajusta el tamaño del logo según sea necesario */
+  height: auto; /* Mantiene la proporción del logo */
+  margin-bottom: 15px; /* Espacio debajo del logo */
+}
+
+.search-browse-discover {
+margin-top: 350px;
+font-size: 30px;
+
+}
+h5 {
+    align-items: stretch;
+    justify-content: center;
+    align-content: space-around;
+    flex-direction: column;
+    font-size: 30px;
+    color:green;
+    
+}
