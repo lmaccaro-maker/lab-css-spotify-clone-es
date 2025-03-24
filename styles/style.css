@@ -33,10 +33,8 @@ ul {
   align-content: space-around;
   flex-direction: row;
   gap: 15px;
-  border: 2px solid black; /* Define el tamaño, estilo y color del borde */
-  padding: 5px;            /* Añade espacio interno alrededor de la frase */  /* Asegura que el span se comporte como un bloque */
-  border-radius: 4px; 
-  border-color:rgb(134, 195, 43);
+            /* Añade espacio interno alrededor de la frase */  /* Asegura que el span se comporte como un bloque */
+
 }
 
 .img-back {
@@ -56,9 +54,10 @@ header {
 h1 {
   display: flex;
   font-size:75px;
-  font-family: font-family:  system-ui, sans-serif;
+  font-family: system-ui, sans-serif;
   padding: 10px;
   margin-bottom: 0px;
+  word-spacing: 15px;
   color: white;
   align-items: center;
   align-content: center;
@@ -66,29 +65,34 @@ h1 {
   justify-content: center;
 }
 
-.h2 {
-font-size: 100px;
-font-family:  system-ui, sans-serif;
+h2{
+
+  font-family: system-ui, sans-serif;
+
 }
 
 h2 {
   display: flex;
   margin-top: 0px;
   font-size:200px;
-  color: white;
+  color:white;
   align-items: center;
   text-align: center;
   justify-content: flex-end;
   flex-direction: column;
+  
 }
 
 h3 {
   align-items: center;
   text-align: center;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 30px;      
+  font-size: 30px;  
+  text-decoration: black;    
+  color: black; 
+  text-decoration: underline;       /* Aplica el subrayado al texto */
   text-decoration-color: green; 
   margin: 50px;
+  font-family:  system-ui, sans-serif;
 }
 
 .box-container {
@@ -98,20 +102,24 @@ h3 {
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: center;
+  
+
 }
+
 
 .box {
   background-color: #ffffff; /* Color de fondo de cada caja */
-  border: 1px solid yellow; /* Borde suave alrededor de cada caja */
+  border: 2px solid yellow; /* Borde suave alrededor de cada caja */
   padding: 1px; /* Espacio interno alrededor del contenido de cada caja */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
-  width: 200px; /* Ancho fijo de cada caja */
-  text-align: center; /* Centrar el texto dentro de cada caja */
-  border-radius: 8px; /* Bordes redondeados */
+  width: 200px; 
+  text-align: center; 
+  border-radius: 10px; 
 }
 
 h4 {
   color: green;
+  font-family:  system-ui, sans-serif;
 }
 
 .logo {
@@ -124,6 +132,7 @@ h4 {
   margin-top: none;
   font-size: 30px;
   background-color: green;
+  color:white
   
 }
 
@@ -135,23 +144,28 @@ h5 {
   flex-direction: column;
   font-size: 30px;
   color: white;
+  font-family:  system-ui, sans-serif;
 }
 
 p {
   font-size: 20px;
+  color:white
+  font-family:  system-ui, sans-serif;
+
 }
 
 .spotify-logo-alone {
   display: flex;
-  width: 100px;
-  height: 100px;
-  height: auto;
-  margin-left: 700px;
+  width: 140px;
+  width: 140px;
+  margin-left: 1200px;
 }
 
 .spotify-app {
   display: flex;
   position: relative;
-  margin-left:900px;
+  margin-left:1600px;
+  
+
   
 }
