@@ -32,7 +32,11 @@ ul {
   align-items: flex-end;
   align-content: space-around;
   flex-direction: row;
-  gap: 10px;
+  gap: 15px;
+  border: 2px solid black; /* Define el tamaño, estilo y color del borde */
+  padding: 5px;            /* Añade espacio interno alrededor de la frase */  /* Asegura que el span se comporte como un bloque */
+  border-radius: 4px; 
+  border-color:rgb(134, 195, 43);
 }
 
 .img-back {
@@ -51,6 +55,8 @@ header {
 
 h1 {
   display: flex;
+  font-size:75px;
+  font-family: font-family:  system-ui, sans-serif;
   padding: 10px;
   margin-bottom: 0px;
   color: white;
@@ -60,9 +66,15 @@ h1 {
   justify-content: center;
 }
 
+.h2 {
+font-size: 100px;
+font-family:  system-ui, sans-serif;
+}
+
 h2 {
   display: flex;
   margin-top: 0px;
+  font-size:200px;
   color: white;
   align-items: center;
   text-align: center;
@@ -74,17 +86,17 @@ h3 {
   align-items: center;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  font-size: 30px;
+  font-size: 30px;      
+  text-decoration-color: green; 
   margin: 50px;
 }
 
 .box-container {
-  display: flex; /* Usar flex para alinear las cajas en fila */
-  gap: 20px; /* Espacio entre las cajas */
+  display: flex; 
+  gap: 20px; 
   align-content: space-around;
   flex-wrap: nowrap;
   flex-direction: row;
-
   justify-content: center;
 }
 
@@ -108,10 +120,11 @@ h4 {
   margin-bottom: 15px; /* Espacio debajo del logo */
 }
 
-.search-browse-discover {
+.container {
   margin-top: none;
   font-size: 30px;
   background-color: green;
+  
 }
 
 h5 {
@@ -139,5 +152,6 @@ p {
 .spotify-app {
   display: flex;
   position: relative;
-  margin-left:1000px;
+  margin-left:900px;
+  
 }
