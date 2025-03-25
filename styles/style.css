@@ -23,8 +23,10 @@ ul {
 }
 
 .spotify-logo {
-  width: 250px;
-  height: 100px;
+  width: 400px;
+  height: 150px;
+ color: rgb(67, 151, 67);
+
 }
 
 .nav-links {
@@ -32,9 +34,8 @@ ul {
   align-items: flex-end;
   align-content: space-around;
   flex-direction: row;
-  gap: 15px;
-            /* Añade espacio interno alrededor de la frase */  /* Asegura que el span se comporte como un bloque */
-
+  gap: 40px;
+  font-size: 40px;
 }
 
 .img-back {
@@ -45,6 +46,8 @@ ul {
   background-image: url("../images/landing.jpg");
   width:auto;
   height: 1500px;
+  align-content:center
+
 }
 
 header {
@@ -53,7 +56,7 @@ header {
 
 h1 {
   display: flex;
-  font-size:75px;
+  font-size:100px;
   font-family: system-ui, sans-serif;
   padding: 10px;
   margin-bottom: 0px;
@@ -65,16 +68,12 @@ h1 {
   justify-content: center;
 }
 
-h2{
-
-  font-family: system-ui, sans-serif;
-
-}
 
 h2 {
   display: flex;
-  margin-top: 0px;
-  font-size:200px;
+  margin-top:5px;
+  font-size:700px;
+  font-family: system-ui, sans-serif;
   color:white;
   align-items: center;
   text-align: center;
@@ -110,16 +109,20 @@ h3 {
 .box {
   
   padding: 120px; /* Espacio interno alrededor del contenido de cada caja */
-  width: 300px; 
-  height:600px;
+  width: 400px; 
+  height:1000px;
   text-align: center; 
+  font-size: 30px;
   
 }
 
 h4 {
   color: green;
   font-family:  system-ui, sans-serif;
+font-size: 30px;
+
 }
+
 
 .logo {
   width: 80px; /* Ajusta el tamaño del logo según sea necesario */
@@ -129,11 +132,14 @@ h4 {
 
 .container {
   margin-top: none;
-  font-size: 60px;
-  background-color: green;
-  color:white
+  font-size: 80px;
+  background-color: rgb(67, 151, 67);
+  color:white;
+  margin-right:50px;
+  margin-left:50px
   
-  
+
+
 }
 
 h5 {
@@ -145,16 +151,19 @@ h5 {
   font-size: 60px;
   color: white;
   font-family:  system-ui, sans-serif;
-padding:100px;
-
+margin-left:40px;
+padding:70px;
 
 }
 
 p {
+  gap:700px:
+  padding:15px;
   font-size: 30px;
   color:white
-  font-family:  system-ui, sans-serif;
-
+  font-family: system-ui, sans-serif;
+  font-size: 40px;
+  margin-left:30px;
 }
 
 .spotify-logo-alone {
