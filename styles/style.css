@@ -43,8 +43,8 @@ ul {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-image: url("../images/landing.jpg");
-  width: 100vw;
-  height: 600px;
+  width:auto;
+  height: 1500px;
 }
 
 header {
@@ -86,8 +86,7 @@ h2 {
 h3 {
   align-items: center;
   text-align: center;
-  font-size: 30px;  
-  text-decoration: black;    
+  font-size: 50px;  
   color: black; 
   text-decoration: underline;       /* Aplica el subrayado al texto */
   text-decoration-color: green; 
@@ -102,19 +101,19 @@ h3 {
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: center;
+  height: 500px;
   
 
 }
 
 
 .box {
-  border: 2px solid yellow; /* Borde suave alrededor de cada caja */
-  padding: 1px; /* Espacio interno alrededor del contenido de cada caja */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+  
+  padding: 120px; /* Espacio interno alrededor del contenido de cada caja */
   width: 300px; 
-  height:300px;
+  height:600px;
   text-align: center; 
-  border-radius: 10px; 
+  
 }
 
 h4 {
@@ -134,6 +133,7 @@ h4 {
   background-color: green;
   color:white
   
+  
 }
 
 h5 {
@@ -145,6 +145,9 @@ h5 {
   font-size: 60px;
   color: white;
   font-family:  system-ui, sans-serif;
+padding:100px;
+
+
 }
 
 p {
@@ -156,18 +159,19 @@ p {
 
 .spotify-logo-alone {
   display: flex;
-  width: 150px;
-  width: 150px;
-  margin-left: 1200px;
+  width: 250px;
+  margin-left: 2000px;
+  
 }
 
 .spotify-app {
   display: flex;
   position: relative;
   margin-left: 1800px;
-  width: 800px;
+  width: 1000px;
   height: auto;
-top:-900px;
-
+  top:-1100px;
+  margin-right: 3000px;
+ margin-left:3000px
   
 }
